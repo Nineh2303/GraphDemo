@@ -1,0 +1,9 @@
+type Product {
+    id :ID!
+    productName : String
+}
+
+type Query {
+    getAllProducts : [Product]
+    Hello : String
+}
